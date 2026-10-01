@@ -1,0 +1,4 @@
+interface:
+  display_name: "包参谋·品牌源力策略 | Brand Primacy Strategy"
+  short_description: "按证据给品牌四项打分，找出一句话源力和先做的三件事 / Evidence-based brand strategy on one page"
+  default_prompt: "Use $baocanmou-brand-primacy to build a one-page brand strategy for my brand and tell me the first three things to do."

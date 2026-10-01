@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" width="1200" height="300" role="img" aria-label="Brand Primacy strategy workflow" font-family="Helvetica Neue, Arial, PingFang SC, sans-serif">
+  <rect width="1200" height="300" rx="20" fill="#faf8f3"/>
+  <text x="40" y="52" font-size="22" font-weight="700" fill="#111111">Brand Primacy Strategy · Workflow</text>
+  <text x="40" y="80" font-size="14" fill="#686860">P = C × U × M × S: one dimension near zero pulls everything down</text>
+  <g font-size="16" fill="#111111" text-anchor="middle">
+    <rect x="40" y="120" width="160" height="100" rx="12" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+    <text x="120" y="160" font-weight="700">1 Collect evidence</text>
+    <text x="120" y="188" font-size="13" fill="#686860">Facts and examples</text>
+    <text x="120" y="206" font-size="13" fill="#686860">not adjectives</text>
+
+    <rect x="236" y="120" width="160" height="100" rx="12" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+    <text x="316" y="160" font-weight="700">2 Score by rubric</text>
+    <text x="316" y="188" font-size="13" fill="#686860">16 items · 0–5</text>
+    <text x="316" y="206" font-size="13" fill="#686860">evidence for each</text>
+
+    <rect x="432" y="120" width="160" height="100" rx="12" fill="#ffd900" stroke="#111111" stroke-width="2"/>
+    <text x="512" y="160" font-weight="700">3 Find the root</text>
+    <text x="512" y="188" font-size="13">One-sentence source</text>
+    <text x="512" y="206" font-size="13">passes four tests</text>
+
+    <rect x="628" y="120" width="160" height="100" rx="12" fill="#ffffff" stroke="#e4e0d5" stroke-width="2"/>
+    <text x="708" y="160" font-weight="700">4 Compute</text>
+    <text x="708" y="188" font-size="13" fill="#686860">Geometric mean · tier</text>
+    <text x="708" y="206" font-size="13" fill="#686860">checks evidence rules</text>
+
+    <rect x="824" y="120" width="160" height="100" rx="12" fill="#ffffff" stroke="#e4e0d5" stroke-width="2" stroke-dasharray="6 5"/>
+    <text x="904" y="160" font-weight="700">5 Jev review</text>
+    <text x="904" y="188" font-size="13" fill="#686860">Optional second opinion</text>
+    <text x="904" y="206" font-size="13" fill="#686860">flags gaps only</text>
+
+    <rect x="1020" y="120" width="140" height="100" rx="12" fill="#111111"/>
+    <text x="1090" y="160" font-weight="700" fill="#ffffff">6 One page</text>
+    <text x="1090" y="188" font-size="13" fill="#e4e0d5">Five strategy lines</text>
+    <text x="1090" y="206" font-size="13" fill="#e4e0d5">three first actions</text>
+  </g>
+  <g stroke="#111111" stroke-width="2" fill="none">
+    <path d="M204 170h28m-7-6 7 6-7 6"/>
+    <path d="M400 170h28m-7-6 7 6-7 6"/>
+    <path d="M596 170h28m-7-6 7 6-7 6"/>
+    <path d="M792 170h28m-7-6 7 6-7 6"/>
+    <path d="M988 170h28m-7-6 7 6-7 6"/>
+  </g>
+  <text x="40" y="264" font-size="13" fill="#686860">If C is 3 or below: no source sentence, only three actions for finding the root.</text>
+</svg>
