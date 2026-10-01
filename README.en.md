@@ -4,6 +4,7 @@
 
 [![Version](https://img.shields.io/badge/version-0.1.0-111111)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111)](NOTICE.md)
+[![Gitee mirror](https://img.shields.io/badge/Gitee-mirror-c71d23)](https://gitee.com/yihuiting/baocanmou-brand-primacy)
 
 An AI Skill for business owners, strategists and designers. It turns the operating facts of a brand into a one-page strategy using the Brand Primacy theory (P = C × U × M × S): where the root is, which dimension is weakest, and which three things to do first.
 
@@ -47,6 +48,8 @@ Clone into your host's skill directory:
 |---|---|
 | Claude Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.claude/skills/baocanmou-brand-primacy` |
 | Codex | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+
+China mirror: `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`.
 
 The scoring script uses only the Python 3 standard library. Without Python, the Skill computes by hand and says so.
 

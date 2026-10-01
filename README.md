@@ -4,6 +4,7 @@
 
 [![版本](https://img.shields.io/badge/version-0.1.0-111111)](CHANGELOG.md)
 [![许可](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111)](NOTICE.md)
+[![Gitee 镜像](https://img.shields.io/badge/Gitee-镜像-c71d23)](https://gitee.com/yihuiting/baocanmou-brand-primacy)
 
 给经营者、策划和设计师用的 AI Skill：把一个品牌的经营事实，按品牌源力理论（P = C × U × M × S）整理成一页策略，说清根在哪、短在哪、先做哪三件事。
 
@@ -45,6 +46,8 @@
 |---|---|
 | Claude Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.claude/skills/baocanmou-brand-primacy` |
 | Codex | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+
+GitHub 打不开时，把地址换成国内镜像 `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`。
 
 计分脚本只用 Python 3 标准库，不需要安装依赖。没有 Python 时，Skill 会按规则手算并注明。
 
