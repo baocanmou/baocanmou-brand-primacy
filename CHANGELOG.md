@@ -1,5 +1,14 @@
 # 更新记录
 
+## 0.2.0（2026-10-05）
+
+支持国产 AI 工具。
+
+- 新增 `PROMPT.md` 聊天版：DeepSeek、Kimi、豆包、通义千问、文心等不能加载 Skill 的聊天窗口，复制全文即可使用，计分改为手算。由 `scripts/build_prompt.py` 从 SKILL.md 生成。
+- README 补充 Kimi Code CLI、文心快码、Qwen Code、TRAE、豆包、扣子的安装方法。
+- 发布页附 Skill 压缩包，供豆包、扣子上传。
+- SKILL.md 说明脚本路径相对于技能目录，方便在其他工具里运行。
+
 ## 0.1.0（2026-10-01）
 
 首个版本。

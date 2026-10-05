@@ -2,7 +2,7 @@
 
 [中文](README.md) · **English**
 
-[![Version](https://img.shields.io/badge/version-0.1.0-111111)](CHANGELOG.md)
+[![Version](https://img.shields.io/badge/version-0.2.0-111111)](CHANGELOG.md)
 [![License](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111)](NOTICE.md)
 [![Gitee mirror](https://img.shields.io/badge/Gitee-mirror-c71d23)](https://gitee.com/yihuiting/baocanmou-brand-primacy)
 
@@ -42,16 +42,20 @@ A second example shows the output when the source is not established: no source 
 
 ## Install
 
-Clone into your host's skill directory:
+This is a standard AI Skill (`SKILL.md`) and works in common AI tools inside and outside China. Pick your tool:
 
-| Host | Command |
+| Tool | How to install |
 |---|---|
 | Claude Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.claude/skills/baocanmou-brand-primacy` |
-| Codex | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+| Codex, Kimi Code CLI, Baidu Comate | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+| Qwen Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.qwen/skills/baocanmou-brand-primacy` |
+| TRAE | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.trae/skills/baocanmou-brand-primacy` |
+| Doubao, Coze | Download `baocanmou-brand-primacy-skill-v<version>.zip` from [Releases](https://github.com/baocanmou/baocanmou-brand-primacy/releases/latest) and upload it on the Skills page |
+| Chat apps: DeepSeek, Kimi, Doubao, Qwen, ERNIE | Open [PROMPT.md](PROMPT.md), paste the whole file as your first message (or attach it), then describe your brand |
 
-China mirror: `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`.
+China mirror: `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`. On Windows, replace `~` with `%USERPROFILE%`. Skill folders may change; follow each tool's current docs.
 
-The scoring script uses only the Python 3 standard library. Without Python, the Skill computes by hand and says so.
+The scoring script uses only the Python 3 standard library. Without Python, or in a chat app, the Skill computes by hand and marks it as such.
 
 ## Usage
 
@@ -98,7 +102,7 @@ Positioning answers which place you hold in the customer's mind. Brand Primacy a
 
 ## Version
 
-Current version 0.1.0. See [CHANGELOG.md](CHANGELOG.md).
+Current version 0.2.0. See [CHANGELOG.md](CHANGELOG.md).
 
 ## License and credit
 

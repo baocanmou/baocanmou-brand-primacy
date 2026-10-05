@@ -3,7 +3,7 @@ name: baocanmou-brand-primacy
 description: 用包参谋品牌源力理论（P=C×U×M×S）为一个品牌做策略：按证据给核心价值、用户连接、市场敏感度、社会角色四项打分，找出最短的一项，写出一句话源力和一页策略，给出先做的三件事。也可校验某个经营动作是否伤到品牌的根，或做季度复测。用于“帮我做品牌策略”“我的品牌没特色”“钱花了没效果”“这件事该不该做”这类请求；只要广告语、Logo 或视觉设计时不适用。
 metadata:
   author: BaoCanMou
-  version: 0.1.0
+  version: 0.2.0
   name_zh: 包参谋·品牌源力策略
   category: strategy
   description_en: Build a one-page brand strategy with the BaoCanMou Brand Primacy theory (P=C×U×M×S). Scores four dimensions from evidence, finds the weakest one, states the brand's source in one sentence and prioritizes three actions.
@@ -66,7 +66,7 @@ metadata:
 
 ## 5. 计算与复核
 
-把评分、源力句、三件事写成 JSON（格式见 [报告格式](references/report.md)），运行：
+把评分、源力句、三件事写成 JSON（格式见 [报告格式](references/report.md)），运行下面的脚本。脚本在本技能目录的 `scripts/` 下，当前目录不是技能目录时，用完整路径运行。
 
 ```bash
 python3 scripts/score.py diagnosis.json

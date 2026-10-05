@@ -2,7 +2,7 @@
 
 **中文** · [English](README.en.md)
 
-[![版本](https://img.shields.io/badge/version-0.1.0-111111)](CHANGELOG.md)
+[![版本](https://img.shields.io/badge/version-0.2.0-111111)](CHANGELOG.md)
 [![许可](https://img.shields.io/badge/license-CC%20BY--NC%204.0-111111)](NOTICE.md)
 [![Gitee 镜像](https://img.shields.io/badge/Gitee-镜像-c71d23)](https://gitee.com/yihuiting/baocanmou-brand-primacy)
 
@@ -40,16 +40,20 @@
 
 ## 安装
 
-把仓库克隆到宿主的技能目录：
+这是标准格式的 AI Skill（`SKILL.md`），国内外常用的 AI 工具都能用。按你用的工具选一种：
 
-| 宿主 | 命令 |
+| 你用的工具 | 安装方法 |
 |---|---|
 | Claude Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.claude/skills/baocanmou-brand-primacy` |
-| Codex | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+| Codex、Kimi Code CLI、文心快码 Comate | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.agents/skills/baocanmou-brand-primacy` |
+| 通义千问 Qwen Code | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.qwen/skills/baocanmou-brand-primacy` |
+| TRAE | `git clone https://github.com/baocanmou/baocanmou-brand-primacy.git ~/.trae/skills/baocanmou-brand-primacy` |
+| 豆包、扣子 | 从 [Releases](https://github.com/baocanmou/baocanmou-brand-primacy/releases/latest) 下载 `baocanmou-brand-primacy-skill-v版本号.zip`，在“技能”页上传 |
+| DeepSeek、Kimi、豆包、通义千问、文心的聊天窗口 | 打开 [PROMPT.md](PROMPT.md)，复制全文作为第一条消息发出（也可以作为附件上传），再讲你的品牌情况 |
 
-GitHub 打不开时，把地址换成国内镜像 `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`。
+GitHub 打不开时，把地址换成国内镜像 `https://gitee.com/yihuiting/baocanmou-brand-primacy.git`。Windows 下把 `~` 换成 `%USERPROFILE%`。各工具的技能目录可能调整，以它们的最新文档为准。
 
-计分脚本只用 Python 3 标准库，不需要安装依赖。没有 Python 时，Skill 会按规则手算并注明。
+计分脚本只用 Python 3 标准库，不需要安装依赖。没有 Python 或在聊天窗口里使用时，会按规则手算并注明“手算”。
 
 ## 使用方法
 
@@ -98,7 +102,7 @@ GitHub 打不开时，把地址换成国内镜像 `https://gitee.com/yihuiting/b
 
 ## 版本与更新
 
-当前版本 0.1.0，见 [CHANGELOG.md](CHANGELOG.md)。
+当前版本 0.2.0，见 [CHANGELOG.md](CHANGELOG.md)。
 
 ## 许可与署名
 
